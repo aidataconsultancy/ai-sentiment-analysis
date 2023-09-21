@@ -24,7 +24,7 @@ sw=nltk.corpus.stopwords.words("english")
 with st.sidebar:
     rad = option_menu(
         menu_title="Navigation",
-        options=["Home","Spam or Ham Detection","Sentiment Analysis","Stress Detection","Hate and Offensive Content Detection","Sarcasm Detection"],
+        options=["Home","Spam Detection","Sentiment Analysis","Stress Detection","Hate and Offensive Content Detection","Sarcasm Detection"],
         icons=["house", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle"]
     )
 #Home Page
@@ -129,7 +129,7 @@ if rad=="Spam or Ham Detection":
             }
         </style>
         """, unsafe_allow_html=True)
-    sent1 = st.text_area("Enter The Text")
+    sent1 = st.text_area("Simply enter your text below:")
     transformed_sent1 = transform_text(sent1)
     vector_sent1 = tfidf1.transform([transformed_sent1])
     prediction1 = model1.predict(vector_sent1)[0]
@@ -168,7 +168,7 @@ if rad=="Sentiment Analysis":
             }
         </style>
         """, unsafe_allow_html=True)
-    sent2=st.text_area("Enter The Text")
+    sent2=st.text_area("Enter your text to reveal its sentiment:")
     transformed_sent2=transform_text(sent2)
     vector_sent2=tfidf2.transform([transformed_sent2])
     prediction2=model2.predict(vector_sent2)[0]
@@ -208,7 +208,7 @@ if rad=="Stress Detection":
             }
         </style>
         """, unsafe_allow_html=True)
-    sent3=st.text_area("Enter The Text")
+    sent3=st.text_area("Input your text below to assess its stress levels:")
     transformed_sent3=transform_text(sent3)
     vector_sent3=tfidf3.transform([transformed_sent3])
     prediction3=model3.predict(vector_sent3)[0]
@@ -248,7 +248,7 @@ if rad=="Hate and Offensive Content Detection":
             }
         </style>
         """, unsafe_allow_html=True)
-    sent4=st.text_area("Enter The Text")
+    sent4=st.text_area("Please input your text below for an assessment:")
     transformed_sent4=transform_text(sent4)
     vector_sent4=tfidf4.transform([transformed_sent4])
     prediction4=model4.predict(vector_sent4)[0]
@@ -289,7 +289,7 @@ if rad=="Sarcasm Detection":
             }
         </style>
         """, unsafe_allow_html=True)
-    sent5=st.text_area("Enter The Text")
+    sent5=st.text_area("Enter your text below to see if it carries a sarcastic undertone:")
     transformed_sent5=transform_text(sent5)
     vector_sent5=tfidf5.transform([transformed_sent5])
     prediction5=model5.predict(vector_sent5)[0]
