@@ -37,20 +37,20 @@ if rad=="Home":
         "Explore a range of analysis options for your text: ⇒",
     )
 
-    st.markdown("1. **Spam or Ham Detection**:")
-    st.write("Is the text genuine or potential spam?")
+    st.markdown("1. **Spam Detection**:")
+    st.write("Find out if the text is authentic or might be spam. ")
 
     st.markdown("2. **Sentiment Analysis**:")
-    st.write("Understand the underlying sentiment of the text.")
+    st.write("Delve into the mood or emotion conveyed by the text.")
 
-    st.markdown("3. **Stress Detection**:")
-    st.write("Determine stress levels from the text's tone and content.")
+    st.markdown("3. **Stress Level Assessment**:")
+    st.write("Gauge the stress levels based on the text's tone and wording.")
 
-    st.markdown("4. **Hate and Offensive Content Detection**:")
-    st.write("Identify any hateful or offensive content in the text.")
+    st.markdown("4. **Offensive Content Identification**:")
+    st.write("Detect any potentially hurtful or inappropriate content within the text.")
 
-    st.markdown("5. **Sarcasm Detection**:")
-    st.write("A unique feature that helps detect sarcasm in the text.")
+    st.markdown("5. **Sarcasm Spotter**:")
+    st.write("A special feature to pinpoint if the text might be using sarcasm.")
 
     st.text("")
     st.text("")
