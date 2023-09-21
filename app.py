@@ -116,10 +116,10 @@ st.write("""
 """, unsafe_allow_html=True)
 #Spam Detection Analysis Page
 if rad=="Spam or Ham Detection":
-    st.header("Detect Whether A Text Is Spam Or Ham??")
+    st.header("Is Your Text Genuine or Potential Spam?")
     # Display text with the custom style
     st.text("")
-    st.markdown('<div class="custom-text">Is the text genuine or potential spam?</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-text">Determine if a message is authentic or unsolicited spam.</div>', unsafe_allow_html=True)
     st.text("")
     st.text("")
     st.write("""
@@ -156,9 +156,9 @@ model2.fit(x_train2,y_train2)
 
 #Sentiment Analysis Page
 if rad=="Sentiment Analysis":
-    st.header("Detect The Sentiment Of The Text!!")
+    st.header("What's the Mood Behind Your Text?")
     st.text("")
-    st.markdown('<div class="custom-text">Understand the underlying sentiment of the text.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-text">Delve into the emotions and feelings conveyed in your message.</div>', unsafe_allow_html=True)
     st.text("")
     st.text("")
     st.write("""
@@ -196,9 +196,9 @@ model3.fit(x_train3,y_train3)
 
 #Stress Detection Page
 if rad=="Stress Detection":
-    st.header("Detect The Amount Of Stress In The Text!!")
+    st.header("How Stressed is Your Text?")
     st.text("")
-    st.markdown('<div class="custom-text">Determine stress levels from the text\'s tone and content.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-text">Gauge the tension or calmness reflected in your message.</div>', unsafe_allow_html=True)
     st.text("")
     st.text("")
     st.write("""
@@ -236,9 +236,9 @@ model4.fit(x_train4,y_train4)
 
 #Hate & Offensive Content Page
 if rad=="Hate and Offensive Content Detection":
-    st.header("Detect The Level Of Hate & Offensive Content In The Text!!")
+    st.header("Is Your Text Harmful or Inoffensive?")
     st.text("")
-    st.markdown('<div class="custom-text">Identify any hateful or offensive content.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-text">Examine your message for traces of hate or potentially inappropriate content.</div>', unsafe_allow_html=True)
     st.text("")
     st.text("")
     st.write("""
@@ -277,9 +277,9 @@ model5.fit(x_train5,y_train5)
 
 #Sarcasm Detection Page
 if rad=="Sarcasm Detection":
-    st.header("Detect Whether The Text Is Sarcastic Or Not!!")
+    st.header("Is There a Hint of Sarcasm in Your Text?")
     st.text("")
-    st.markdown('<div class="custom-text">A unique feature that helps detect sarcasm in the text.\n\n\n</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-text">Unravel the subtle tones in your message.\n\n\n</div>', unsafe_allow_html=True)
     st.text("")
     st.text("")
     st.write("""
