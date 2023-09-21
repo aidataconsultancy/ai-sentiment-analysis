@@ -24,7 +24,7 @@ sw=nltk.corpus.stopwords.words("english")
 with st.sidebar:
     rad = option_menu(
         menu_title="Navigation",
-        options=["Home","Spam Detection","Sentiment Analysis","Stress Detection","Hate and Offensive Content Detection","Sarcasm Detection"],
+        options=["Home","Spam or Ham Detection","Sentiment Analysis","Stress Detection","Hate and Offensive Content Detection","Sarcasm Detection"],
         icons=["house", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle", "bi bi-arrow-right-circle"]
     )
 #Home Page
