@@ -95,7 +95,7 @@ model1.fit(x_train1,y_train1)
 custom_style = """
     <style>
         .custom-text {
-            background-color: #ff6800;
+            background-color: #1c244b;
             padding:5px 10px;
             border-radius: 5px;
             color: #ffffff;
@@ -110,7 +110,7 @@ st.write("""
 <style>
     .stButton button {
         color: #ffffff;
-        background-color: #1c244b;
+        background-color: #ff6800;
     }
 </style>
 """, unsafe_allow_html=True)
