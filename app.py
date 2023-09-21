@@ -110,7 +110,7 @@ st.write("""
 <style>
     .stButton button {
         color: #ffffff;
-        background-color: #ff6800;
+        background-color: #1c244b;
     }
 </style>
 """, unsafe_allow_html=True)
