@@ -29,12 +29,12 @@ with st.sidebar:
     )
 #Home Page
 if rad=="Home":
-    st.title("Complete Text Analysis App")
+    st.title("Comprehensive Text Analysis Tool")
     #st.image("Complete Text Analysis Home Page.jpg")
     st.image("pic1.jpg")
     st.text(" ")
     st.write(
-        "The Following Text Analysis Options Are Available ⇒",
+        "Explore a range of analysis options for your text: ⇒",
     )
 
     st.markdown("1. **Spam or Ham Detection**:")
